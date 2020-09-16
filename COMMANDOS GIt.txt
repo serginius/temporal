@@ -1,0 +1,60 @@
+- configurar variable :
+
+- "git config --global user.name "Sergio Benitez"
+- git config --global user.email "serginius@live.com.ar"
+- chequear la configuracion = "git config --list"
+- hacer un directorio activo manage por git = git init 
+
+- hacer que no sea tomado por git, aplica a carpetas, etc = "git .gitignore" (editar el file creado y poner carpea o arhivos a excluuir de trackero y que no pase al staging area.
+
+-  ver estado de mis archivos working directory | staging area | repositorio = git status
+
+-  file para que pase a staggina area (trackear) = "git add -A" (-a para todos)
+-  para volver un archivo al area del working o mas bien que no lo tracker (o esstara en administacion d versionado ni nada n git, lo vuelve a local o la version que tngamos como ultima ya que a partir de ese comando l archivo no puede ser trackeado.
+-  pasar al repository area,  hacer un comentario sobre la subida al pasarlo a staging area simpre para visualizar mejor y documetar y poder volver a esa version. "git commit -m "comantario entre comillas y cerrar comillas"
+-  para ver el historial de todos los commits que hay en el rpositorio = git log (autor, fecha y el mensaje puesto"
+-  para descargar un proyecto externo = git clone 
+
+
+-  para ver los cambis que yo hice o mas bien decir del master descargado hacer = "git diff"
+-  para ver los del master descargado o sea como vino origina y su documebtacion hacer = "git log"
+-  asegurarme que tengo la ultima version = "git pull origin master" --- te aseggura tener la ultima vesion productiva 
+
+Que es un branch, es una camino diferente al master, con eso si yo lo comiteo, genero una branch pueden hacer un coentario lo ven, lo aceptan, etc 
+
+- gener mi branch = "git branch newbranch"
+- listar todas las branch = "git branch"
+- cambiare a mi branch luego de crearla = "git checkout newbranch"
+- hace publica mi branch y mis modificacionc no olo local "git push -u origin newbranch"
+- ver mis branch y las branch en el original (l remoto segund mi ultia actualizaion) = "git branch -a"
+
+- unir i branch a master, 
+
+A= pasar a la bbranch master = "git checkout master"
+B= verificar que tengo la ultima version = "git pull origin master"  
+C = para ver las branch que hemos "mergeado o sea unido" = git branch --merged
+D= para mergear una branch al master = "git merge newbanch"
+E: hacer finalmente publica o sea unirla al master como ultima version = " git push origin master" 
+
+- "git push origin --delete newbanch" (borra la branch del repo externo) 
+- "git branch -d newbanch" = borra la branch d mi copia local
+
+
+
+fix
+
+
+"git commit --amend"  = te permite agregar o modificar data DEL ULtTIMO COMMIT
+" git log --stat" muestra los archivos modificar en cada commit
+
+
+
+***copiar el commit hasg o commit id de una branch a otra*** este dato lo trae el comando "git log "
+
+="git cherry-pick 546de3b317fc6a38d3723ff1bc9138314a720c6b" 
+== "git reset --soft 546de3b317fc6a38d3723ff1bc9138314a720c6b" = los achivos que s modifican en el commit los deja en el staging area
+= "git reset 546de3b317fc6a38d3723ff1bc9138314a720c6b " lo mismoq ue el soft pero los deja en el working directory 
+= "git reset --hard 546de3b317fc6a38d3723ff1bc9138314a720c6b" esto elimnina todo hasta, DEJA EL Working directory se pierden totalmnte, ni siquiera localmente.
+
+
+https://youtu.be/7-JHoPyJy-Q?t=411
