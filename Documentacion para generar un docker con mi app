@@ -1,0 +1,83 @@
+ -Genero un docker que luego de salir lo borre ( --rm ) | lo corro en background e interactivo para 
+ conectarnos (-dti) | monto desde el path actual donde estoy parado dque contenees el file main.go asi
+ asi cuando nos conectemos al docker que  estamos generando podes correr "go run main.go" desde el
+ docker ya que se monta en /go del docker ($PWD/:/go) |  la asigno a la red local para poder probar mi app desde mi pc facilmente ( --net host) | le asigno un nombre  (--name 
+ golang) | le digo que imagen quiero generar (golang) | ejecuto una terminal bash para conectarnos finalmente con el id que nos brinde el comando ejecutado ahora (bash)
+ 
+ 
+ 
+CMD = "docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash"
+
+
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+e6557f4660e8a318fc12a4248fc57e97e6b9642a4f3ca3fd868d637664e5e437
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ pwd
+/home/serginius/kubernetes/k8s-hands-on/backend
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ cat main.go 
+package main
+
+import (
+	"encoding/json"
+	"net/http"
+	"os"
+	"time"
+)
+
+type HandsOn struct {
+	Time     time.Time `json:"time"`
+	Hostname string    `json:"hostname"`
+}
+
+func ServeHTTP(w http.ResponseWriter, r *http.Request) {
+
+	resp := HandsOn{
+		Time:     time.Now(),
+		Hostname: os.Getenv("HOSTNAME"),
+	}
+	jsonResp, err := json.Marshal(&resp)
+	if err != nil {
+
+
+		w.Write([]byte("Error"))
+		return
+	}
+
+	w.WriteHeader(http.StatusOK)
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(jsonResp)
+}
+
+func main() {
+	http.HandleFunc("/", ServeHTTP)
+	http.ListenAndServe(":9090", nil)
+}
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ 
+
+
+
+
+
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ docker exec -ti e6557f4660e8a318fc12a4248fc57e97e6b9642a4f3ca3fd868d637664e5e437 bash 
+root@esparta:/go# ls -lha
+total 20K
+-rw-r--r-- 1 root root   74 Sep 18 04:28 '*.*.code-workspace'
+drwxrwxr-x 2 1000 1000 4.0K Sep 18 04:28  .
+drwxr-xr-x 1 root root 4.0K Sep 18 05:17  ..
+-rw-r--r-- 1 root root  211 Sep 18 04:28  Dockerfile
+-rw-rw-r-- 1 1000 1000  587 Sep 18 03:53  main.go
+root@esparta:/go# 
+
+
+
+root@esparta:/go# go run main.go 
+
+
+
+prueba al puerto 8080 localhost desde la maquina que estamos.
+
+
+
+
+
+
+

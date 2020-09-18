@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJyZWdpc3RyeS5pbWFnaW5lbGVhcm5pbmcubmV0Ijp7InVzZXJuYW1lIjoiY2xvdWRib3QiLCJwYXNzd29yZCI6IjU5RDdSYXJrdFN4dF5XQDkiLCJlbWFpbCI6ImNsb3VkYm90QGltYWdpbmVsZWFybmluZy5jb20iLCJhdXRoIjoiWTJ4dmRXUmliM1E2TlRsRU4xSmhjbXQwVTNoMFhsZEFPUT09In19fQ==
+kind: Secret
+metadata:
+  name: registry.imaginelearning.net
+type: kubernetes.io/dockerconfigjson

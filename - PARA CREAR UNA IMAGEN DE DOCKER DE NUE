@@ -1,0 +1,119 @@
+- PARA CREAR UNA IMAGEN DE DOCKER DE NUESTRA APPLICACION; PRIMERO BUSCAR COMO SE HACE segun el lenguage
+  a) buscar "dockerfile golando application"
+  
+  Ejemplo y abajo con comentarios.
+
+
+dockerfile: 
+
+
+
+--------------------------------------------------------
+
+FROM golang:1.13 as builder
+
+WORKDIR /app
+COPY main.go  .
+RUN CGO_ENABLED=0 GOOS=linux GOPROXY=https://proxy.golang.org go build -o app ./main.go
+
+FROM alpine:latest
+
+WORKDIR /app
+COPY --from=builder /app/app .
+
+---------------------------__
+
+
+dockerfile: com comentarios
+
+--------------------------------------------------------
+#vamos a utilizar la imagen de golang:1.13
+
+FROM golang:1.13 as builder
+
+#Definimos nuestro WORDIR como /app
+WORKDIR /app
+
+#Copiamos nuestro main.go a (/app)  
+COPY main.go  .
+
+#Contruimos el binario hasta -o y le decimos donde esta nuestro main.go y el output va a ser app (el output "-o")
+RUN CGO_ENABLED=0 GOOS=linux GOPROXY=https://proxy.golang.org go build -o app ./main.go
+
+
+#Luego iniciamos desde alpine 
+-------------------------------------------------  
+FROM alpine:latest
+
+#Definimos nuestro WORDIR como /app
+
+WORKDIR /app
+
+#copiamos desde nuestro BUILDER (el primer From "as builder") hacia /app/app (es el nombre del output "-o" . (el punto es el directorio actual como destino)
+
+COPY --from=builder /app/app .
+
+#Ahora por ultimo ejecutamos la app con el CMD nuestro app
+CMD ["./app"]
+~                                                                                                                                             
+~                              
+
+
+
+Ahora CONTRUIMOS LA IMAGEN !!!!!!!!!!!!!!!!
+
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ pwd
+/home/serginius/kubernetes/k8s-hands-on/backend
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ docker build -t k8s-hands-on -f Dockerfile .
+Sending build context to Docker daemon  4.608kB
+Step 1/8 : FROM golang:1.13 as builder
+ ---> d6f3656320fe
+Step 2/8 : WORKDIR /app
+ ---> Using cache
+ ---> 2bb8091cb4f3
+Step 3/8 : COPY main.go  .
+ ---> Using cache
+ ---> 283408b1bcb5
+Step 4/8 : RUN CGO_ENABLED=0 GOOS=linux GOPROXY=https://proxy.golang.org go build -o app ./main.go
+ ---> Using cache
+ ---> 4554b6cc2cd9
+Step 5/8 : FROM alpine:latest
+ ---> a24bb4013296
+Step 6/8 : WORKDIR /app
+ ---> Using cache
+ ---> c9e41e1eac95
+Step 7/8 : COPY --from=builder /app/app .
+ ---> Using cache
+ ---> 84202a68a13f
+Step 8/8 : CMD ["./app"]
+ ---> Using cache
+ ---> 273f46b14908
+Successfully built 273f46b14908
+Successfully tagged k8s-hands-on:latest
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ 
+
+
+AHORA VAMOS A CORRER NUEStrA IMAGEN GENERADA "k8s-hands-on"
+
+-d = se va al fondo (backgound)
+-p = para exponer un puerto en el caso el 9091 de nuestra maquina al 9090 del contendor ya que nuestra app (maing.go escucha ahi)
+--name = le damos un nombre "k8s-hands-on"
+- EL ULTIMO k8s-hands-on es el nombre de la imagen que vamos a utilizar y este nombre es el que le pusimos con el build
+docker run -d -p 9091:9090 --name k8s-hands-on k8s-hands-on 
+
+
+PRUEBA!!!prueba con curl, el resultado es: "{"time":"2020-09-18T05:55:08.957689663Z","hostname":"1f89fd8f6f9b"} 
+
+
+
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ docker run -d -p 9091:9090 --name k8s-hands-on k8s-hands-on 
+1f89fd8f6f9b3daf10b4047213709216e8c99d91bd468f518e3cc43f8edad37d
+serginius@esparta:~/kubernetes/k8s-hands-on/backend$ curl localhost:9091
+{"time":"2020-09-18T05:55:08.957689663Z","hostname":"1f89fd8f6f9b"}serginius@esparta:~/kubernetes/k8s-hands-on/backend$ 
+
+
+
+
+
+
+

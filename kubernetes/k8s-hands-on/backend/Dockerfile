@@ -8,4 +8,4 @@ FROM alpine:latest
  
 WORKDIR /app
 COPY --from=builder /app/app .
-CMD ["./app"]   
+CMD ["./app"]

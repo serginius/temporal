@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: serve
+spec:
+  containers:
+  - name: serve
+    image: busybox
+    env:
+    - name: RUN_SCRIPT
+      value: |
+              sleep 10000
+    command:
+    - 'sh'
+    - '-c'
+    - 'echo "$RUN_SCRIPT" > run.sh && chmod +x ./run.sh && ./run.sh'
+  restartPolicy: Never

@@ -1,0 +1,1000 @@
+ 1186  minikube start
+ 1187  sudo sublime
+ 1188  curl localhost:9090
+ 1189  cd ..
+ 1190  ls
+ 1191  exit
+ 1192  scp kubernetes/k8s-hands-on/
+ 1193  scp -R kubernetes/k8s-hands-on/ .
+ 1194  cd kubernetes/
+ 1195  cd k8s-hands-on/
+ 1196  ls
+ 1197  cd backend/
+ 1198  ls
+ 1199  vim main.go 
+ 1200  history | grep docker 
+ 1201  docker pull golang
+ 1202  pwd
+ 1203  hostnamectl 
+ 1204  vim main.go 
+ 1205  docker | grep dti
+ 1206  history  | grep dti
+ 1207  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1208  docker ps 
+ 1209  docker exec -ti 7493dbf8e86e bash
+ 1210  pwd
+ 1211  ls
+ 1212  cat main.go 
+ 1213  cd ..
+ 1214  ls
+ 1215  cd front/
+ 1216  ls
+ 1217  vim main.go 
+ 1218  docker ps -a
+ 1219  docker rm -f 7493dbf8e86e
+ 1220  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1221  go run main.go 
+ 1222  docker exec -ti a4d82bed746cfddb6c579255d6be4a8c96224daa8262f7be297a9e547561bc33 bash
+ 1223  snap info go
+ 1224  exit
+ 1225  cd ..
+ 1226  ls
+ 1227  cd --
+ 1228  ls
+ 1229  cd Desktop/
+ 1230  cd ..
+ 1231  cd Downloads/
+ 1232  ls
+ 1233  cd ..
+ 1234  ls
+ 1235  cd Documents/
+ 1236  l
+ 1237  tar -zxvf go1.15.2.src.tar.gz 
+ 1238  ls
+ 1239  cd go
+ 1240  ls
+ 1241  cd src/
+ 1242  sudo ./all.bash
+ 1243  sudo bash ./all.bash
+ 1244  bash ./all.bash
+ 1245  vim ~/.bash_profile
+ 1246  cd --
+ 1247  ls
+ 1248  pwd
+ 1249  ls
+ 1250  cd .vscode/
+ 1251  ls
+ 1252  cd extensions/
+ 1253  ls
+ 1254  ls -lha
+ 1255  cp -r /home/serginius/Documents/go .
+ 1256  ls
+ 1257  GOPATH=$HOME/go
+ 1258  cd ..
+ 1259  ls
+ 1260  cd Documents/
+ 1261  ls
+ 1262  cd go/
+ 1263  ls
+ 1264  cd src
+ 1265  ls
+ 1266  history | grep bash
+ 1267  ./all.bash
+ 1268  echo $PATH
+ 1269  docker exec -ti 7fd9149baea7d42c2e3708096f8019cd48a3e078ee16899ccb2e0d49b0661de7 bash
+ 1270  ls
+ 1271  docker ps
+ 1272  docker exec -ti golang
+ 1273  docker exec -ti golang bash
+ 1274  ./all.bash 
+ 1275  ls
+ 1276  cd ..
+ 1277  ls
+ 1278  sudo apt remove golang
+ 1279  sudo apt autoremove
+ 1280  cd ..
+ 1281  ls
+ 1282  rm -rf go
+ 1283  ls -lha
+ 1284  cd ..
+ 1285  cd Downloads/
+ 1286  ls
+ 1287  tar -zxvf go1.15.2.src.tar.gz 
+ 1288  sudo mv go /usr/local
+ 1289  go version
+ 1290  sudo echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+ 1291  go version
+ 1292  exit
+ 1293  cd ..
+ 1294  ls
+ 1295  cd serginius/
+ 1296  ls
+ 1297  cd kubernetes/
+ 1298  ñs
+ 1299  ls
+ 1300  cd k8s-hands-on/
+ 1301  ls
+ 1302  cp main.go backend/
+ 1303  ls
+ 1304  cd backend/
+ 1305  ls
+ 1306  rm -rf src/
+ 1307  .s
+ 1308  ls
+ 1309  vim main.go 
+ 1310  history | grep -dti
+ 1311  history | grep dti
+ 1312  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1313  docker exec -ti 7493dbf8e86e0b2f943c23bec890c20b6ecb79b0a9255492ffdb616b39de71a6 bash
+ 1314  exit
+ 1315  go version
+ 1316  sudo snap install go
+ 1317  sudo snap install go --classic
+ 1318  go version
+ 1319  docker ps
+ 1320  docker exec -ti golang bash
+ 1321  pwd
+ 1322  docker rm -f golang
+ 1323  cd kubernetes/
+ 1324  cd k8s-hands-on/
+ 1325  ls
+ 1326  cd backend/
+ 1327  ls
+ 1328  cat main.go 
+ 1329  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1330  docker exec -ti golang bash
+ 1331  vim main.go 
+ 1332  ls
+ 1333  ls -lha
+ 1334  cd .vscode/
+ 1335  ls
+ 1336  cd extensions/
+ 1337  ls
+ 1338  cd golang.go-0.16.2/
+ 1339  ls
+ 1340  cd ..
+ 1341  ls
+ 1342  cd ..
+ 1343  cd Documents/
+ 1344  cd go/
+ 1345  ls
+ 1346  cd src
+ 1347  ./all.
+ 1348  ./all.bash
+ 1349  locate go1.4
+ 1350  find / -name go*
+ 1351  find / -name go
+ 1352  find / -name go1.4
+ 1353  GOPATH=/usr/local
+ 1354  docker ps
+ 1355  docker exec -ti golang
+ 1356  docker exec -ti golang bash
+ 1357  go env GOPATH
+ 1358  history | grep GO
+ 1359  ! 1257  GOPATH=$HOME/go
+ 1360  sudo init 0
+ 1361  The "go-outline" command is not available.
+ 1362  go get -v github.com/ramya-rao-a/go-outline
+ 1363  go help gopath
+ 1364  sudo The "dlv" command is not available.
+ 1365  The "dlv" command is not available.
+ 1366  sudo /snap/bin/go get -v github.com/go-delve/delve/cmd/dlv
+ 1367  sudo /snap/bin/go get -v 
+ 1368  sudo init 0
+ 1369  sudo The "dlv" command is not available.
+ 1370  export PATH=$PATH:$(go env GOPATH)/bin
+ 1371  history | grep echo
+ 1372  history | grep export
+ 1373  export PATH=$PATH:$(go env GOPATH)/usr/local/go/bin
+ 1374  minikube start
+ 1375  sudo init 6
+ 1376  go version
+ 1377  locate settings.json
+ 1378  find / -name settings.json
+ 1379  cd ..
+ 1380  cd --
+ 1381  find / -name /depot 
+ 1382  find / -name depot 
+ 1383  exit
+ 1384  sudo dpkg --purge code & sudo dpkg --remove code
+ 1385  sudo dpkg --purge code 
+ 1386  sudo snap remove vscod
+ 1387  sudo snap remove vscode
+ 1388  exit
+ 1389  exit
+ 1390  exit
+ 1391  go get -v github.com/ramya-rao-a/go-outline
+ 1392  path
+ 1393  history 
+ 1394  export PATH=$PATH:$(go env GOPATH)/usr/local/go/bin
+ 1395  exit
+ 1396  ls
+ 1397  sudo apt remove golang
+ 1398  sudo apt autoremove
+ 1399  cd Downloads/
+ 1400  ls
+ 1401  sudo tar -zxvf go1.15.2.src.tar.gz 
+ 1402  cd go
+ 1403  cd ..
+ 1404  sudo mv go /usr/local
+ 1405  rm -rf /usr/local/go
+ 1406  sudo rm -rf /usr/local/go
+ 1407  sudo mv go /usr/local
+ 1408  sudo echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+ 1409  go version
+ 1410  mkdir ~/go/awesome-project
+ 1411  ls
+ 1412  cd mkdir ~/go/awesome-project
+ 1413  cd  ~/go/awesome-project
+ 1414  ls
+ 1415  pwd
+ 1416  vim main.go
+ 1417  sudo apt update; sudo apt install software-properties-common apt-transport-https wget
+ 1418  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+ 1419  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+ 1420  sudo apt install code
+ 1421  code
+ 1422  sudo code
+ 1423  sudo coe --user-data-dir
+ 1424  sudo code --user-data-dir
+ 1425  minikube status
+ 1426  minikube start
+ 1427  minikube status
+ 1428  history | grep dti
+ 1429  ls
+ 1430  cd ..
+ 1431  ls
+ 1432  cd --
+ 1433  ls
+ 1434  cd kubernetes/
+ 1435  ls
+ 1436  cd k8s-hands-on/
+ 1437  ls
+ 1438  cd backend/
+ 1439  ls
+ 1440  vim main.go 
+ 1441  pwd
+ 1442  ls
+ 1443  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1444  docker exec -ti c9dd02e417d34009599de45bb0250839a58882870a395cf96830a7f5b331263a bash
+ 1445  sudo apt-get install yakuake
+ 1446  ~exit
+ 1447  git login --username=sergbenitez
+ 1448  git --config --list z
+ 1449  git --config --list 
+ 1450  sudo code
+ 1451  sudo code --user-data-dir
+ 1452  cd --
+ 1453  cd kubernetes/k8s-hands-on/
+ 1454  ls
+ 1455  cd backend/
+ 1456  ls
+ 1457  cat main.go 
+ 1458  vim main.go 
+ 1459  history | grep curl
+ 1460  curl localhost:9090
+ 1461  ps -fea 
+ 1462  top
+ 1463  cd kubernetes/k8s-hands-on/
+ 1464  ls
+ 1465  cd backend/
+ 1466  cat main.go 
+ 1467  vim main.go 
+ 1468  sudo vcode
+ 1469  sudo code
+ 1470  pwd
+ 1471  exit
+ 1472  ls
+ 1473  pwd
+ 1474  ls
+ 1475  pwd
+ 1476  cd .bashrc
+ 1477  vim .bashrc
+ 1478  source .bash
+ 1479  source .bashrc 
+ 1480  source .bash
+ 1481  vim .bashrc
+ 1482  source .bash
+ 1483  vim .bashrc
+ 1484  source .bashrc
+ 1485  vim .bashrc
+ 1486  source .bashrc 
+ 1487  code
+ 1488  vim .bashrc 
+ 1489  alias
+ 1490  source .bashrc 
+ 1491  vim .bashrc 
+ 1492  sudo code
+ 1493  sudo code --user-data-dir
+ 1494  docker ps
+ 1495  minikube status
+ 1496  minikube start
+ 1497  docker ps
+ 1498  history | grep dti
+ 1499  pwd
+ 1500  cd kubernetes/k8s-hands-on/backend/
+ 1501  ls
+ 1502  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1503  docker exec -ti ocker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1504  docker exec -ti 6caea91494e9c7b03c2221fac9b480865543693d8636c3f73bfe85afffc0adab bash
+ 1505  docker build -t k8s-hands-on -f Dockerfile .
+ 1506  docker ps
+ 1507  docker rm -rv  6caea91494e9
+ 1508  docker rm -fv  6caea91494e9
+ 1509  docker ps -l
+ 1510  docker run -d 9091:9090 --name k8s-hands-on k8s-hands-on
+ 1511  docker run -d -p 9091:9090 --name k8s-hands-on k8s-hands-on
+ 1512  docker ps -l
+ 1513  ls
+ 1514  cd --
+ 1515  cd kubernetes/
+ 1516  git 
+ 1517  git init
+ 1518  ls
+ 1519  ls -lha
+ 1520  git config --global user.name "Sergio Benitez"
+ 1521  git config --global user.email "serginius@live.com.ar"
+ 1522  vim .bashrc 
+ 1523  source -bas
+ 1524  source .bashrc 
+ 1525  git config --list
+ 1526  cd ..
+ 1527  ls
+ 1528  cd serginius/
+ 1529  ls
+ 1530  mkdir git
+ 1531  cd git/
+ 1532  ls
+ 1533  git clonehttps://github.com/serginius/temporal.git
+ 1534  git clone https://github.com/serginius/temporal.git
+ 1535  cd --
+ 1536  cd kubernetes/
+ 1537  ls
+ 1538  cp -r k8s-hands-on/ /home/serginius/git/temporal
+ 1539  exit
+ 1540  cd git
+ 1541  ls
+ 1542  cd temporal/
+ 1543  ls
+ 1544  vim COMMANDOS\ GIt.txt 
+ 1545  exit
+ 1546  sudo apt-get install recordmydesktop gtk-recordmydesktop
+ 1547  sudo add-apt-repository ppa:kazam-team/stable-series
+ 1548  sudo apt-get update
+ 1549  sudo apt-get install kazam
+ 1550  exit
+ 1551  cd kubernetes/k8s-hands-on/backend/
+ 1552  lls
+ 1553  ll
+ 1554  clear
+ 1555  pwd
+ 1556  history | grep docker
+ 1557  history | grep dti
+ 1558  . 1503  docker exec -ti ocker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1559  docker exec -ti ocker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1560  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1561  history
+ 1562  pwd
+ 1563  ls
+ 1564  cat main.go 
+ 1565  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1566  ps -fea | grep ka
+ 1567  killall kazzam
+ 1568  killall kaza,
+ 1569  killall kazam
+ 1570  ls
+ 1571  killall kazam
+ 1572  ps -fea | grep ka
+ 1573  sudo add-apt-repository ppa:sylvain-pineau/kazam
+ 1574  sudo apt update
+ 1575  sudo apt install kazam
+ 1576  sudo apt instalar python3-el cairo python3-xlib
+ 1577  sudo apt install python3-el cairo python3-xlib
+ 1578  sudo apt install python3-cairo python3-xlib
+ 1579  kazam
+ 1580  sudo apt remove --purge kazam
+ 1581  sudo apt update
+ 1582  sudo apt install kazam
+ 1583  sudo apt install python3-cairo python3-xlib
+ 1584  sudo apt-get --purge remove kazam
+ 1585  sudo apt clean
+ 1586  dkpg --list
+ 1587  apt --installed list | more
+ 1588  sudo apt --installed list | more
+ 1589  sudo apt --installed list | kazam
+ 1590  sudo apt --installed list | grep kazam
+ 1591  sudo apt-get update && sudo apt-get upgrade
+ 1592  kazam
+ 1593  sudo add-apt-repository ppa:sylvain-pineau/kazam
+ 1594  vim /etc/apt/sources.list
+ 1595  cp -p /etc/apt/sources.list /etc/apt/sources.list.ORI
+ 1596  sudo cp -p /etc/apt/sources.list /etc/apt/sources.list.ORI
+ 1597  ls -lah 
+ 1598  ls -lah /etc/apt/sources.list
+ 1599  vim /etc/apt/sources.list
+ 1600  ls
+ 1601  awk '!x[$0]++' /etc/apt/sources.list
+ 1602  awk '!x[$0]++' /etc/apt/sources.list && rm -rf
+ 1603  awk '!x[$0]++' /etc/apt/sources.list
+ 1604  sudo apt-get install kazam
+ 1605  history 
+ 1606  history | grep docker
+ 1607  docker ps -a
+ 1608  docker rm -fv golang
+ 1609  docker rm -fv k8s-hands-on
+ 1610  docker ps -l
+ 1611  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1612  sudo cod
+ 1613  sudo code
+ 1614  sudo code --user -data-dir
+ 1615  doc
+ 1616  history
+ 1617  docker ps -a
+ 1618  docker rm -fv golang
+ 1619  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1620  pwd
+ 1621  cat main.go 
+ 1622  ls
+ 1623  docker ps
+ 1624  docker exec -ti serginius@esparta:~/kubernetes/k8s-hands-on/backend$ docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1625  e6557f4660e8a318fc12a4248fc57e97e6b9642a4f3ca3fd868d637664e5e437
+ 1626  serginius@esparta:~/kubernetes/k8s-hands-on/backend$ pwd
+ 1627  /home/serginius/kubernetes/k8s-hands-on/backend
+ 1628  serginius@esparta:~/kubernetes/k8s-hands-on/backend$ cat main.go 
+ 1629  package main
+ 1630  import (
+ 1631  "encoding/json"
+ 1632  "net/http"
+ 1633  "os"
+ 1634  docker exec -ti e6557f4660e8a318fc12a4248fc57e97e6b9642a4f3ca3fd868d637664e5e437
+ 1635  docker exec -ti e6557f4660e8a318fc12a4248fc57e97e6b9642a4f3ca3fd868d637664e5e437 bash 
+ 1636  ls
+ 1637  vim Dockerfile 
+ 1638  cat Dockerfile 
+ 1639  ls
+ 1640  cat Dockerfile 
+ 1641  cat Dockerfile  | CMD
+ 1642  cat Dockerfile  | grep CMD
+ 1643  cat Dockerfile  | grep app
+ 1644  cat Dockerfile  
+ 1645  vim Dockerfile 
+ 1646  sudo vim Dockerfile 
+ 1647  history | grep build
+ 1648  cat main.go 
+ 1649  ls
+ 1650  vim Dockerfile 
+ 1651  sudo vim Dockerfile 
+ 1652  ls
+ 1653  docker ps
+ 1654  docker rm -fv golang
+ 1655  history | grep build
+ 1656  pwd
+ 1657  mv Dockerfile Dockerfile.ORIGIN
+ 1658  ls
+ 1659  docker ps
+ 1660  pwd
+ 1661  ls -l
+ 1662  docker build -t k8s-hands-on -f Dockerfile .
+ 1663  mv Dockerfile.ORIGIN Dockerfile.ORIGIN 
+ 1664  mv Dockerfile.ORIGIN Dockerfile
+ 1665  pwd
+ 1666  docker build -t k8s-hands-on -f Dockerfile .
+ 1667  docker ps -l
+ 1668  docker run -d -p 9091:9090 --name k8s-hands-on k8s-hands-on 
+ 1669  curl localhost:9091
+ 1670  docker rm -fv k{"time":"2020-09-18T05:55:08.957689663Z","hostname":"1f89fd8f6f9b"}serginius@esparta:~/kubernetes/k8s-hands-on/backend$ 
+ 1671  docker rm -fv k8s-hands-on
+ 1672  sudo init 0
+ 1673  cd kubernetes/k8s-hands-on/backend/
+ 1674  ls
+ 1675  docker rm --rm -dti  -v $PWD/:/go  --net host -name golang golang bash
+ 1676  docker run --rm -dti  -v $PWD/:/go --net host --name golang golang bash
+ 1677  docker exec -ti f7640bdf95820428ff3ba3ad4fd67d21a6ca800d3a2b60f7953ab697302c1acc bash 
+ 1678  cd git/temporal/
+ 1679  git status
+ 1680  git add -A
+ 1681  git status
+ 1682  git commit -m "K8s.v1"
+ 1683  sudo code --user-data-dir
+ 1684  git merged 
+ 1685  git merge 
+ 1686  git merge --list
+ 1687  git push origin master
+ 1688  history 
+ 1689  history | grep docker
+ 1690  history | grep docker > /home/serginius/git/temporal/
+ 1691  history | grep docker > /home/serginius/git/temporal/editar.txr
+ 1692  cd git/
+ 1693  ls
+ 1694  cd temporal/
+ 1695  ls
+ 1696  cd k8s-hands-on/
+ 1697  ls
+ 1698  cd backend/
+ 1699  ls
+ 1700  cp main.go /home/serginius/kubernetes/k8s-hands-on/backend/src
+ 1701  exit
+ 1702  sudo code --user-data-dir
+ 1703  docker image ls
+ 1704  exit
+ 1705  ls
+ 1706  cd kubernetes/
+ 1707  ls
+ 1708  cd k8s-hands-on/
+ 1709  ls
+ 1710  cd backend/
+ 1711  ls
+ 1712  kubectl get pod
+ 1713  kubectl get deploy backend -o yaml | grep -i Pull -C 12
+ 1714  vim backend.yaml 
+ 1715  kubectl get deploy backend -o yaml | grep -i Pull -C5
+ 1716  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep -i Pull -C5
+ 1717  kubectl get deploy
+ 1718  kubectl get deployments
+ 1719  kubectl get pod
+ 1720  kubectl get deployments.apps
+ 1721  kubectl get deployments.apps backend-k8s-hands-on -o yaml
+ 1722  vim backend.yaml 
+ 1723  vim Dockerfile 
+ 1724  ls
+ 1725  vim backend.yaml
+ 1726  ls
+ 1727  docker image -l
+ 1728  docker image ls
+ 1729  docker image -l
+ 1730  docker image ls
+ 1731  docker ps
+ 1732  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep Pull -C 12
+ 1733  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep Pull -C 4
+ 1734  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep Pull 
+ 1735  docker get pod
+ 1736  kubectl get pod
+ 1737  docker image ls
+ 1738  docker get pod
+ 1739  docker image ls
+ 1740  kubectl get pod
+ 1741  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep Pull 
+ 1742  kubectl describe pod containerconerror
+ 1743  kubectl describe pod 
+ 1744  sudo kubectl apply -f backend.yaml 
+ 1745  docker login --username
+ 1746  docker login --username=serginius
+ 1747  kubectl get svc
+ 1748  kubectl get deploy
+ 1749  kubectl apply -f backend.yaml 
+ 1750  vim backend.yaml 
+ 1751  kubectl apply -f backend.yaml 
+ 1752  vim backend.yaml 
+ 1753  kubectl apply -f backend.yaml 
+ 1754  kubectl get deploy
+ 1755  kubectl get pod
+ 1756  vim backend.yaml 
+ 1757  kubectl apply -f backend.yaml  --dry-run-client
+ 1758  kubectl apply -f backend.yaml  --dry-run
+ 1759  kubectl get pod
+ 1760  vim backend.yaml 
+ 1761  kubectl apply -f backend.yaml  --dry-run
+ 1762  vim backend.yaml 
+ 1763  kubectl apply -f backend.yaml  --dry-run
+ 1764  kubectl apply -f backend.yaml 
+ 1765  kubectl get pod
+ 1766  docker ps
+ 1767  docker pull k8s-hands-on
+ 1768  docker login
+ 1769  docker pull k8s-hands-on
+ 1770  docker run -dti  k8s-hands-on bash
+ 1771  sudo init 6
+ 1772  cd kubernetes/
+ 1773  ls
+ 1774  cd k8s-hands-on/
+ 1775  ls
+ 1776  cd backend/
+ 1777  ls
+ 1778  kubectl apply -f backend.yaml 
+ 1779  kubectl get deploy 
+ 1780  kubectl delete --all
+ 1781  kubectl delete * --all
+ 1782  kubectl delete pod --all
+ 1783  kubectl delete svc --all
+ 1784  kubectl delete deploy --all
+ 1785  pwd
+ 1786  kubectl status
+ 1787  kubectl apply -f backend.yaml 
+ 1788  kubectl get deploy
+ 1789  ls
+ 1790  vim backend.yaml 
+ 1791  kubectl get deploy
+ 1792  kubectl get pod
+ 1793  kubectl delete deploy --all
+ 1794  kubectl delete svc --all
+ 1795  kubectl delete opd --all
+ 1796  kubectl delete pod --all
+ 1797  kubectl get pod
+ 1798  kubectl get deploy
+ 1799  kubectl get svc
+ 1800  kubectl apply -f backend.yaml 
+ 1801  kubectl get svc
+ 1802  kubectl get deploy
+ 1803  kubectl get pod
+ 1804  ckubectl apply -f backend.yaml 
+ 1805  ls
+ 1806  history
+ 1807  history | grep get
+ 1808  kubectl get deploy backend -o yaml | grep -i Pull -C 12
+ 1809  ls
+ 1810  docker image ls
+ 1811  vim backend.yaml
+ 1812  kubectl apply -f backend.yaml 
+ 1813  kubectl get deploy backend -o yaml | grep -i Pull -C 12
+ 1814  kubectl get deployments.apps backend-k8s-hands-on -o yaml
+ 1815  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep -i Pull -C 12
+ 1816  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep -i image -C 12
+ 1817  kubectl delete deploy
+ 1818  kubectl delete deploy --all
+ 1819  kubectl delete dvc --all
+ 1820  kubectl delete svc --all
+ 1821  kubectl delete pod --all
+ 1822  kubectl get status
+ 1823  kubectl apply -f backend.yaml 
+ 1824  kubectl  get deploy 
+ 1825  kubectl get deployments.apps backend-k8s-hands-on -o yaml | grep -i image -C 12
+ 1826  kubectl get deployments.app backend-k8s-hands-on
+ 1827  ls
+ 1828  history | grep build
+ 1829  history | grep run
+ 1830  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1831  ls
+ 1832  docker exec -ti b22760d3388201e35b3eac5ed3fc37baecb59aab3a4e15f9284f5bafff227129 bash
+ 1833  cd kubernetes/
+ 1834  cd k8s-hands-on/
+ 1835  ls
+ 1836  cd backend/
+ 1837  ls
+ 1838  vim Dockerfile 
+ 1839  docker build -t k8s-hands-on -f Dockerfile .
+ 1840  sudo code --user-data-dir
+ 1841  ll
+ 1842  cd kubernetes/k8s-hands-on/
+ 1843  ls
+ 1844  cd backend/
+ 1845  ls
+ 1846  mkdir src
+ 1847  pwd
+ 1848  ll
+ 1849  cd src/
+ 1850  ls
+ 1851  cd ..
+ 1852  ls
+ 1853  mv ./*.* /opt
+ 1854  sudo mv ./*.* /opt
+ 1855  ls
+ 1856  mv Dockerfile /opt
+ 1857  sudo mv Dockerfile /opt
+ 1858  ls
+ 1859  touch DOckerfile
+ 1860  touch backend.yaml
+ 1861  cat /opt
+ 1862  ls
+ 1863  cd src/
+ 1864  ls
+ 1865  cd ..
+ 1866  ls
+ 1867  cd ..
+ 1868  ls
+ 1869  cd backend/
+ 1870  ls
+ 1871  ls src
+ 1872  cd ..
+ 1873  cd servicios/
+ 1874  ls
+ 1875  cd svc
+ 1876  vim svc.yaml 
+ 1877  ls
+ 1878  cd ..
+ 1879  cd nodeport/
+ 1880  ls
+ 1881  vim army.yaml 
+ 1882  cp army.yaml /home/serginius/kubernetes/k8s-hands-on/backend/
+ 1883  cd ..
+ 1884  ls
+ 1885  cd k8s-hands-on/
+ 1886  ls
+ 1887  cd backend/
+ 1888  ls
+ 1889  mv DOckerfile Dockerfile
+ 1890  ls
+ 1891  docker build -t k8s-hands-on -f Dockerfile .
+ 1892  vim Dockerfile 
+ 1893  rm -rf Dockerfile 
+ 1894  pwd
+ 1895  cd /home/serginius/git
+ 1896  ls
+ 1897  cd temporal/
+ 1898  ls
+ 1899  cd k8s-hands-on/
+ 1900  ls
+ 1901  cd backend/
+ 1902  ls
+ 1903  cp Dockerfile /home/serginius/kubernetes/k8s-hands-on/backend/
+ 1904  cat Dockerfile 
+ 1905  docker build -t k8s-hands-on -f Dockerfile .
+ 1906  vim Dockerfile 
+ 1907  docker ps
+ 1908  docker ps -a
+ 1909  minikube status
+ 1910  minikube start
+ 1911  ls
+ 1912  cd /home/serginius/kubernetes/k8s-hands-on/
+ 1913  ls
+ 1914  cd backend/
+ 1915  ls
+ 1916  kubectl apply -f backend.yaml 
+ 1917  kubectl get pod
+ 1918  kubectl delete deploy
+ 1919  kubectl delete deploy --all
+ 1920  kubectl delete pod 
+ 1921  kubectl delete pod --all
+ 1922  ls
+ 1923  kubectl get svc
+ 1924  kubectl delete svc --all
+ 1925  ll
+ 1926  pwd
+ 1927  kubectl apply -f backend.yaml 
+ 1928  kubectl get deploy 
+ 1929  kubectl get deploy  backend 
+ 1930  kubectl get pod -l app= backend 
+ 1931  kubectl get pod -l app=backend 
+ 1932  kubectl get deploy backend 
+ 1933  kubectl get deploy backend  -o yaml  | grep -i Pull -c 12
+ 1934  kubectl get deploy backend  -o yaml  | grep -i Pull -C 12
+ 1935  minikube ssh
+ 1936  minikube status
+ 1937  minikube start
+ 1938  hostnamectl 
+ 1939  cd kubernetes/k8s-hands-on/
+ 1940  ls
+ 1941  cd backend/
+ 1942  ls
+ 1943  vim backend.yaml 
+ 1944  kubectl get deploy
+ 1945  kubectl get pod
+ 1946  get describe pod backend-k8s-hands-on-5db984c79f-d5q9c
+ 1947  kubectl describe pod backend-k8s-hands-on-5db984c79f-d5q9c
+ 1948  docker image ls
+ 1949  docker tag k8s-hands-on:latest registry.imaginelearning.net/ilprovo/k8s-hands-on:latest
+ 1950  docker login registry.imaginelearning.net
+ 1951  docker push registry.imaginelearning.net/ilprovo/k8s-hands-on:latest
+ 1952  ls
+ 1953  vim backend.yaml 
+ 1954  cat ~/.docker/config.json
+ 1955  vim ~/.docker/config.json
+ 1956  echo <string> | base64 -D 
+ 1957  echo <string> | base64 -D "auths": {
+ 1958  echo c2VyZ2lvLmJlbml0ZXo6UGpYWEgxTGd5NXJTMlVMRFVqYnM= | base64 -D 
+ 1959  echo c2VyZ2lvLmJlbml0ZXo6UGpYWEgxTGd5NXJTMlVMRFVqYnM= | base64 --D 
+ 1960  base64
+ 1961* base64 --hel
+ 1962  echo c2VyZ2lvLmJlbml0ZXo6UGpYWEgxTGd5NXJTMlVMRFVqYnM= | base64 -d
+ 1963  ls
+ 1964  vim backend.yaml 
+ 1965  kubectl create secret generic registry.imaginelearning.net     --from-file=.dockerconfigjson=~/.docker/config.json     --type=kubernetes.io/dockerconfigjson
+ 1966  kubectl create secret generic registry.imaginelearning.net --from-file=.dockerconfigjson=~/.docker/config.json     --type=kubernetes.io/dockerconfigjson
+ 1967  cd ~/.docker/
+ 1968  ls
+ 1969  kubectl create secret generic registry.imaginelearning.net --from-file=.dockerconfigjson=~/.docker/config.json --type=kubernetes.io/dockerconfigjson
+ 1970  kubectl create secret generic registry.imaginelearning.net --from-file=.dockerconfigjson=/home/serginius/.docker/config.json --type=kubernetes.io/dockerconfigjson
+ 1971  ls
+ 1972  kubectl controller get secret
+ 1973  kubectl  get secret
+ 1974  ImagePullSecret
+ 1975  cd --
+ 1976  cd kubernetes/k8s-hands-on/
+ 1977  ls
+ 1978  cd backend/
+ 1979  ls
+ 1980  vim backend.yaml 
+ 1981  kubectl apply -f backend.yaml --dry-run-client
+ 1982  kubectl apply -f backend.yaml --dry-run
+ 1983  docker ps
+ 1984  vim backend.yaml 
+ 1985  kubectl apply -f backend.yaml --dry-run
+ 1986  kubectl apply -f backend.yaml
+ 1987  kubectl get pod
+ 1988  kubectl describe pod backend-k8s-hands-on-747b4bbf89-k5mxx
+ 1989  kubectl create secret docker-registry registry.imaginelearning.net --docker-server=registry.imaginelearning.net --docker-username=sergio.benitez --docker-password=PjXXH1Lgy5rS2ULDUjbs --docker-email=sergio.benitez@imaginelearning.com
+ 1990  kubectl create secret docker-registry registry.imaginelearning.net --docker-server=registry.imaginelearning.net --docker-username=sergio.benitez --docker-password=PjXXH1Lgy5rS2ULDUjbs --docker-email=sergio.benitezkubectl delete secret registry.imaginelearning.net@imaginelearning.com
+ 1991  kubectl delete secret registry.imaginelearning.net
+ 1992  kubectl create secret docker-registry registry.imaginelearning.net --docker-server=registry.imaginelearning.net --docker-username=sergio.benitez --docker-password=PjXXH1Lgy5rS2ULDUjbs --docker-email=sergio.benitezkubectl delete secret registry.imaginelearning.net@imaginelearning.com
+ 1993  hisotyr 
+ 1994  history 
+ 1995  kubectl create secret docker-registry registry.imaginelearning.net --docker-server=registry.imaginelearning.net --docker-username=sergio.benitez --docker-password=PjXXH1Lgy5rS2ULDUjbs --docker-email=sergio.benitezkubectl delete secret registry.imaginelearning.net@imaginelearning.com
+ 1996  kubectl create secret docker-registry registry.imaginelearning.net --docker-server=registry.imaginelearning.net --docker-username=sergio.benitez --docker-password=PjXXH1Lgy5rS2ULDUjbs --docker-email=sergio.benitez
+ 1997  kubectl delete pod --all
+ 1998  kubectl delete deploy --all
+ 1999  kubectl delete svc --all
+ 2000  kubectl status
+ 2001  kubectl get svc
+ 2002  kubectl apply -f backend.yaml
+ 2003  kubectl get pod
+ 2004  kubectl describe backend-k8s-hands-on-747b4bbf89-476ts
+ 2005  kubectl get pod
+ 2006  kubectl describe backend-k8s-hands-on-747b4bbf89-476ts
+ 2007  kubectl describe backend-k8s-hands-on-747b4bbf89-476ts -o yaml
+ 2008  kubectl describe pod  backend-k8s-hands-on-747b4bbf89-476ts
+ 2009  cat ~/.docker/config.json
+ 2010  vim newfile
+ 2011  mv newfile jason.json
+ 2012  history | grep delete
+ 2013  kubectl delete secret registry.imaginelearning.net
+ 2014  vim hola
+ 2015  kubectl create secret generic registry.imaginelearning.net     --from-file=.dockerconfigjson=jason.json     --type=kubernetes.io/dockerconfigjson
+ 2016  kubectl get pod
+ 2017  kubectl delete pod
+ 2018  kubectl delete pod -all
+ 2019  kubectl delete pod --all
+ 2020  kubectl get pod
+ 2021  docker pull registry.imaginelearning.net/ilprovo/k8s-hands-on:latest
+ 2022  kubectl apply -f backend.yaml 
+ 2023  kubectl get pod
+ 2024  kubectl describe backend-k8s-hands-on-747b4bbf89-xrfn5
+ 2025  kubectl describe pod backend-k8s-hands-on-747b4bbf89-xrfn5
+ 2026  kubectl delete pod --allkubectl delete secret registry.imaginelearning.net
+ 2027  kubectl delete secret registry.imaginelearning.net
+ 2028  vim registry.yaml
+ 2029  cat registry.yaml 
+ 2030  kubectl apply -f registry.yaml
+ 2031  kubectl delete pod --al
+ 2032  kubectl delete pod --all
+ 2033  kubectl describe deployment.apps backend-k8s-hands-on 
+ 2034  kubectl describe deployment.apps backend-k8s-hands-on -o yaml 
+ 2035  kubectl get deployment.apps backend-k8s-hands-on -o yaml 
+ 2036  kubectl get deployment.apps backend-k8s-hands-on -o yaml  | grep -i imaginelearning -C 12
+ 2037  kubectl get pod
+ 2038  use busybox and use something like sleep 10000
+ 2039  kubectl get pod
+ 2040  vim dd.yamls
+ 2041  vim dd.yaml
+ 2042  vim backend.yaml 
+ 2043  kubectl apply -f backend.yaml 
+ 2044  vim backend.yaml 
+ 2045  kubectl apply -f backend.yaml 
+ 2046  vim backend.yaml 
+ 2047  kubectl apply -f backend.yaml 
+ 2048  vim backend.yaml 
+ 2049  kubectl apply -f backend.yaml 
+ 2050  vim backend.yaml 
+ 2051  kubectl apply -f backend.yaml 
+ 2052  vim backend.yaml 
+ 2053  kubectl apply -f backend.yaml 
+ 2054  kubectl apply -f backend.yaml  --dry-run
+ 2055  kubectl apply -f backend.yaml  --dry-run=client
+ 2056  vim pod.yaml
+ 2057  vim pod1.yaml
+ 2058  vim serg.yaml
+ 2059  kubectl apply -f serg.yaml 
+ 2060  kubectl get pod
+ 2061  kubectl exec -it serve -- sh
+ 2062  vim serg.yaml
+ 2063  kubectl apply -f serg.yaml 
+ 2064  kubectl delete pod serve
+ 2065  kubectl apply -f serg.yaml 
+ 2066  kubectl delete pod serve
+ 2067  vim serg.yaml
+ 2068  kubectl get pod
+ 2069  kubectl apply -f serg.yaml 
+ 2070  vim serg.yaml
+ 2071  kubectl apply -f serg.yaml 
+ 2072  kubectl exec -ti serve sh
+ 2073  minikube ssh
+ 2074  pwd
+ 2075  kubectl get pod
+ 2076  kubectl delete pod back*
+ 2077  kubectl delete pod backend-k8s-hands-on-747b4bbf89-jc6bm
+ 2078  kubectl get pod
+ 2079  ls
+ 2080  cd ..
+ 2081  pwd
+ 2082  ls
+ 2083  cd k8s-hands-on/
+ 2084  ls
+ 2085  cd backend/
+ 2086  ls
+ 2087  cd r
+ 2088  cd src/
+ 2089  vim main.go 
+ 2090  vim bac
+ 2091  cd ..
+ 2092  vim backend.yaml 
+ 2093  cp backend.yaml backend.yaml.JP
+ 2094  cd /home/serginius/git/temporal/k8s-hands-on/
+ 2095  ls
+ 2096  cd backend/
+ 2097  ls
+ 2098  cd fron
+ 2099  ls
+ 2100  cd ..
+ 2101  s
+ 2102  ls
+ 2103  cd ..
+ 2104  ls
+ 2105  cd k8s-hands-on
+ 2106  ls
+ 2107  cd /opt
+ 2108  ls
+ 2109  cd --
+ 2110  cd kubernetes/
+ 2111  ls
+ 2112  cd k8s-hands-on/
+ 2113  ls
+ 2114  cd backend/
+ 2115  ls
+ 2116  vim serg.yaml 
+ 2117  vim backend.yaml
+ 2118  ls
+ 2119  kubectl delete pod --all
+ 2120  kubectl delete svc --all
+ 2121  kubectl delete deploy --all
+ 2122  ls
+ 2123  kubectl get pod
+ 2124  kubectl apply -f backend.yaml --dry-run=client
+ 2125  kubectl apply -f backend.yaml
+ 2126  kubectl get deploy
+ 2127  kubectl get svc 
+ 2128  kubectl get pod
+ 2129  cat backend.yaml
+ 2130  docker image ls
+ 2131  ls
+ 2132  kubectl get pod 
+ 2133  kubectl describe pod backend-k8s-hands-on-5d66cf749d-8fwkk
+ 2134  kubectl get deploy backend-k8s-hands-on -o yaml | grep Pull -C 12
+ 2135  minikube ssh
+ 2136  vim backend.yaml
+ 2137  kubectl apply -f backend.yaml
+ 2138  kubectl get pod
+ 2139  kubectl get pod -o wide
+ 2140  history | grep -rm
+ 2141  history | grep --rm
+ 2142  kubectl exec -ti backend-k8s-hands-on-7b9bfccd57-g6qm9 bash
+ 2143  kubectl exec -ti backend-k8s-hands-on-7b9bfccd57-g6qm9 sh
+ 2144  vim backend.yaml
+ 2145  minikube ssh
+ 2146  vim backend.yaml
+ 2147  minikube ssh
+ 2148  vim backend.yaml
+ 2149  kubectl apply -f backend.yaml
+ 2150  kubectl get pod
+ 2151  kubectl describe pod
+ 2152  kubectl describe pods | grep k8s-hands-on:test
+ 2153  pwd
+ 2154  ip a
+ 2155  docker tag registry.imaginelearning.net/ilprovo/k8s-hands-on:latest registry.imaginelearning.net/ilprovo/k8s-hands-on:test1
+ 2156  docker push  registry.imaginelearning.net/ilprovo/k8s-hands-on:test1
+ 2157  vim backend.yaml
+ 2158  kubectl apply -f backend.yaml
+ 2159  kubectl get pod
+ 2160  history | grep secret
+ 2161  kubectl get secret
+ 2162  vim backend.yaml
+ 2163  kubectl apply -f backend.yaml
+ 2164  kubectl get pod
+ 2165  docker image ls
+ 2166  vim backend.yaml
+ 2167  history 
+ 2168  history | grep "docker tag"
+ 2169  docker image ls
+ 2170  ls
+ 2171  docker ls
+ 2172  history | grep tag
+ 2173  history
+ 2174  history | grep login
+ 2175  docker login registry.imaginelearning.net
+ 2176  history | grep json
+ 2177  history jason.json
+ 2178  history | grep  jason.json
+ 2179  vim backend.yaml
+ 2180  pwd
+ 2181  ls
+ 2182  cat jason.json 
+ 2183  vim backend.yaml
+ 2184  history | grep delete
+ 2185  history > /home/serginius/git/temporal/historyJP.txt

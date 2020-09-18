@@ -1,0 +1,106 @@
+  686  docker pull goland
+  687  docker login 
+  688  docker pull goland
+  689  docker run -ti  goland
+  690  docker pull  goland
+  722  docker login --username=sergginius --email=serginius@live.com.ar
+  723  docker login --username=sergginius 
+  724  docker login --username=sergginius
+  725  docker pull goland
+  849  docker ps
+  850  docker rm golang
+  851  docker rm golang -f
+  852  docker ps -a
+  853  docker --help
+  854  docker ps -a
+  855  docker rm 18cd020d5b2f
+  856  docker rm 18cd020d5b2f -f
+  857  docker rm 18cd020d5b2f b0276f9aa512
+  858  docker rm  b0276f9aa512 -f
+  859  docker ps -a
+  861  docker rm --rm -dti  -v $PWD/:/go  --net host -name golang golang bash 
+  862  docker run --rm -dti  -v $PWD/:/go  --net host -name golang golang bash 
+  863  docker run --rm -dti  -v $PWD/:/go --net host --name golang golang bash 
+  864  docker exec -ti 1724044c7ac8b85dd16e231ae630c9b2cdab6d3d66e9d7e16f2fed4a1665e5f5 bash
+  865  docker ps -a
+  866  docker rm -f 1724044c7ac8
+  869  docker run --rm -dti  -v $PWD/:/go --net host --name golang golang bash 
+  870  docker exec -ti  eef76d970541005df0aebd7bf66dbeb04e3a7c8a493e5c0c1904e728f9d178f8 bash
+  874  docker exec -ti  eef76d970541005df0aebd7bf66dbeb04e3a7c8a493e5c0c1904e728f9d178f8 bash
+  876  docker exec -ti  eef76d970541005df0aebd7bf66dbeb04e3a7c8a493e5c0c1904e728f9d178f8 bash
+  878  docker exec -ti  eef76d970541005df0aebd7bf66dbeb04e3a7c8a493e5c0c1904e728f9d178f8 bash
+  880  docker exec -ti  eef76d970541005df0aebd7bf66dbeb04e3a7c8a493e5c0c1904e728f9d178f8 bash
+  882  docker exec -ti  eef76d970541005df0aebd7bf66dbeb04e3a7c8a493e5c0c1904e728f9d178f8 bash
+  884  docker ps -a
+  885  docker rm -f eef76d970541
+  886  docker run --rm -dti  -v $PWD/:/go --net host --name golang golang bash 
+  887  docker exec -ti 6a7026ff2d956ea582c29f320fc7c1fdd857e8b3a5e96f8cb404560d79db1216  bash
+  890  docker exec -ti 6a7026ff2d956ea582c29f320fc7c1fdd857e8b3a5e96f8cb404560d79db1216  bash
+  896  docker run goland
+  897  docker login --username=sergginius
+  898  docker run goland
+  899  docker run golandg
+  908  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+  923  docker run -dti --net host --name goland goland bash
+  924  docker run --help
+  925  docker run --help | grep login
+  926  docker run --help | less
+ 1052  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1056  docker ps
+ 1057  docker ps -a
+ 1058  docker rm -f 61ee2cb3a5cd 6c6659dc4b6a
+ 1059  docker ps -a
+ 1090  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1092  docker exec -ti 94c4960aae4530918c76802485363cc9bb08a8288b5c50b8916caefea23ad25c bash
+ 1093  docker ps -a
+ 1094  docker delete 94c4960aae45 9a89a76ea8bb
+ 1095  docker rm -f 94c4960aae45 9a89a76ea8bb
+ 1097  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1098  docker exec -ti 083bdcec356aee10a67d5f8d7b8264dd5004597f557e7f570e1c6f9150832210 bash
+ 1139  docker ps -a
+ 1140  docker rm -f 36675c6e42f0
+ 1179  docker ps
+ 1183  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1184  docker exec -ti 7fd9149baea7d42c2e3708096f8019cd48a3e078ee16899ccb2e0d49b0661de7 bash
+ 1200  history | grep docker 
+ 1201  docker pull golang
+ 1205  docker | grep dti
+ 1207  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1208  docker ps 
+ 1209  docker exec -ti 7493dbf8e86e bash
+ 1218  docker ps -a
+ 1219  docker rm -f 7493dbf8e86e
+ 1220  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1222  docker exec -ti a4d82bed746cfddb6c579255d6be4a8c96224daa8262f7be297a9e547561bc33 bash
+ 1269  docker exec -ti 7fd9149baea7d42c2e3708096f8019cd48a3e078ee16899ccb2e0d49b0661de7 bash
+ 1271  docker ps
+ 1272  docker exec -ti golang
+ 1273  docker exec -ti golang bash
+ 1312  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1313  docker exec -ti 7493dbf8e86e0b2f943c23bec890c20b6ecb79b0a9255492ffdb616b39de71a6 bash
+ 1319  docker ps
+ 1320  docker exec -ti golang bash
+ 1322  docker rm -f golang
+ 1329  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1330  docker exec -ti golang bash
+ 1354  docker ps
+ 1355  docker exec -ti golang
+ 1356  docker exec -ti golang bash
+ 1443  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1444  docker exec -ti c9dd02e417d34009599de45bb0250839a58882870a395cf96830a7f5b331263a bash
+ 1494  docker ps
+ 1497  docker ps
+ 1502  docker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1503  docker exec -ti ocker run --rm -dti -v $PWD/:/go --net host --name golang golang bash
+ 1504  docker exec -ti 6caea91494e9c7b03c2221fac9b480865543693d8636c3f73bfe85afffc0adab bash
+ 1505  docker build -t k8s-hands-on -f Dockerfile .
+ 1506  docker ps
+ 1507  docker rm -rv  6caea91494e9
+ 1508  docker rm -fv  6caea91494e9
+ 1509  docker ps -l
+ 1510  docker run -d 9091:9090 --name k8s-hands-on k8s-hands-on
+ 1511  docker run -d -p 9091:9090 --name k8s-hands-on k8s-hands-on
+ 1512  docker ps -l
+ 1551  history | grep docker
+ 1552  history | grep docker > /home/serginius/git/temporal/
+ 1553  history | grep docker > /home/serginius/git/temporal/editar.txr

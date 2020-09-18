@@ -1,0 +1,610 @@
+    1  sudo apt updaste
+    2  sudo apt update
+    3  sudo init 0
+    4  exit
+    5  sudo aptget upgrade
+    6  ip a
+    7  sudo apt install openssh
+    8  sudo apt install openssh-server
+    9  cd --
+   10  du -sh *
+   11  sudo snap install vlc
+   12  du -sh *
+   13  exit
+   14  egrep --color 'vmx|svm' /proc/cpuinfo
+   15  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && chmod +x minikube
+   16  sudo apt install curl
+   17  sudo su
+   18  sudo apt install curl
+   19  udo dpkg --configure -a
+   20  sudo dpkg --configure -a
+   21  sudo apt install curl
+   22  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && chmod +x minikube
+   23  sudo cp minikube /usr/bin && rm minikube
+   24  sudo snap install kubectl --classic
+   25  kubectl version
+   26  udo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-commo
+   27  udo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-commo
+   28  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-commo
+   29  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+   30  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   31  sudo apt-key fingerprint 0EBFCD88
+   32  pub   rsa4096 2017-02-22 [SCEA]
+   33  uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
+   34  sub   rsa4096 2017-02-22 [S] sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   35     $(lsb_release -cs) \
+   36     stable"
+   37  sudo systemctl start docker
+   38  sudo systemctl enable docker
+   39  docker ps
+   40  whoami
+   41  sudo usermod -aG docker serginius
+   42  docker ps
+   43  sudo docker ps
+   44  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && chmod +x minikube
+   45  sudo mv minikube /usr/bin
+   46  minikube status
+   47  sudo minikube status
+   48  sudo minikube starts
+   49  sudo minikube start
+   50  sudo minikube status
+   51  minikube start --vm-driver=none
+   52  sudo minikube start --vm-driver=none
+   53  sudo minikube start 
+   54  sudo init 0
+   55  init o
+   56  init 0
+   57  minikube start 
+   58  kubectl get pods
+   59  sudo su -
+   60  kubectl cluster-info
+   61  docker ps
+   62  history | grep systemctl
+   63  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && chmod +x minikube
+   64  ls /usr/bin/
+   65  minikube status
+   66  sudo kubectl get pods
+   67  kubectl get pods
+   68  ls -la
+   69  pwd
+   70  vim .bashrc 
+   71  sudo apt install vim
+   72  minikube 
+   73  minikube status
+   74  minikube stop
+   75  minikube start
+   76  minikube status
+   77  touch cursodocker
+   78  vim cursodocker 
+   79  sudo apt-get install openvpn cur
+   80  sudo apt-get install openvpn curl
+   81  curl https://privatevpn.com/client/install.sh
+   82  ls
+   83  egetl https://privatevpn.com/client/install.sh
+   84  wget https://privatevpn.com/client/install.sh
+   85  ls
+   86  ls -ls
+   87  chmod +x .in
+   88  chmod +x ./install.sh 
+   89  bash install.sh 
+   90  sudo bash install.sh 
+   91  wget >dit /etc/privatevpn.conf and change the server you want to connect to.
+   92  wget https://privatevpn.com/serverlist
+   93  vim serverlist 
+   94  sudo privatevpn
+   95  sudo privatvpn
+   96  cd /etc
+   97  ls
+   98  vim privatevpn.conf
+   99  sudo vim privatevpn.conf
+  100  sudo privatevpn
+  101  sudo privatvpn
+  102  udo apt-get -y install network-manager-openvpn-gnome
+  103  sudo apt-get -y install network-manager-openvpn-gnome
+  104  vim link.txt 
+  105  ip a
+  106  sudo cat /etc/resolv.conf 
+  107  uname -a
+  108  hostnamectl 
+  109  cd Desktop/
+  110  cd ..
+  111  ls
+  112  cd Downloads/
+  113  ls
+  114  dpkg -i megasync-xUbuntu_20.04_amd64.deb 
+  115  sudo dpkg -i megasync-xUbuntu_20.04_amd64.deb 
+  116  sudo apt update
+  117  ip a
+  118  cd ..
+  119  vim link.txt
+  120  kubectl get pods
+  121  kubectl run --generator=run pod/v1
+  122  kubectl run --generator=run pod/v1 --image=nginx:alpine
+  123  kubectl run --generator=run-pod/v1 --image=nginx:alpine
+  124  sudo apt-upgrade c
+  125  sudo apt-update
+  126  sudo apt-get update
+  127  sudo kubectl run --generator=run-pod/v1 --image=nginx:alpine
+  128  kubectl run -h
+  129  kubectl run -h | less
+  130  kubectl get pods
+  131  kubectl get nginx --image=pepe
+  132  kubectl run nginx --image=pepe
+  133  kubectl run podstarx --image=pepe
+  134  kubectl get pods
+  135  kubectl describe pod
+  136  kubectl describe podstarx 
+  137  kubectl describe pod podstarx 
+  138  kubectl api-resoucers
+  139  kubectl api-resouces
+  140  kubectl api-resourcs
+  141  kubectl api-resources
+  142  kubectl api-resources | po
+  143  kubectl api-resources | grep po
+  144  kubectl delete pod podstarx
+  145  kubectl get pod
+  146  kubectl get pod podstarx
+  147  kubectl get pod
+  148  kubectl get pod nginx 
+  149  kubectl get pod nginx  -o yaml
+  150  kubectl describe pod ngin
+  151  docker ps -l
+  152  kubectl delete pod nxing
+  153  kubectl delete pod nginx
+  154  docker ps l
+  155  docker ps -l
+  156  docker ps -filter=name nginx
+  157  docker ps -f=name nginx
+  158  docker ps -f=name=nginx
+  159  history | grep kubectl
+  160  history 
+  161  kubectl run nginx --image=pepe
+  162  kubectl get pod
+  163  docker ps -l
+  164  kubectl get pods
+  165  kubectl run nginx --image=nxginx:alpine
+  166  kubectl delete pod nginx --image=nxginx:alpine
+  167  kubectl delete pod nginx
+  168  docker ps -l
+  169  exit
+  170  sudo init 0
+  171  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  172  sudo apt-get install apt-transport-https
+  173  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  174  sudo apt-get update
+  175  sudo apt-get install sublime-text
+  176  sublime
+  177  exit
+  178  kubectl get pos
+  179  kubectl get po
+  180  kubectl get pod rs-test-m9g5s -o yaml | grep uid
+  181  kubectl get pods
+  182  kubectl get pod
+  183  kubectl start
+  184  kubectl status
+  185  minikube status
+  186  minikube start
+  187  minikube status
+  188  kubectl status
+  189  kubectl get pod
+  190  kubectl run sergio image=nginx:alpine
+  191  kubectl run sergio --image=nginx:alpine
+  192  kubectl get pod
+  193  kubectl describe pod sergio
+  194  kubectl delete pod sergio
+  195  kubectl run sergio --image=nginx
+  196  kubectl delete pod sergio
+  197  kubectl run sergio --image=nginx
+  198  kubectl get pod
+  199  history | run
+  200  history | grep run
+  201  kubectl run nginx --imagine=nginx
+  202  kubectl run nginx --image=nginx
+  203  kubectl get pod
+  204  kubectl delete nginx
+  205  kubectl delete sergio
+  206  kubectl get pod
+  207  kubectl delete sergio
+  208  kubectl delete nginx
+  209  kubectl delete
+  210  kubectl get pod
+  211  kubectl delete nginx
+  212  kubectl delete pod nginx
+  213  kubectl delete pod sergio
+  214  kubectl get pod
+  215  kubectl run nginx
+  216  kubectl run nginx --image=nginx:alpine
+  217  kubectl get pod
+  218  history | grep kubectl | grep run
+  219  kubectl run --generator=run-pod/v1 --image=nginx:alpine
+  220  kubectl run ser  --image=nginx:alpine
+  221  kubectl get pod
+  222  kubectl delete ngincx
+  223  kubectl delete pod nginx
+  224  kubectl get pod
+  225  kubectl describe pod 
+  226  kubectl delete podser
+  227  kubectl delete pod ser
+  228  kubectl run -h
+  229  kubectl run nginx --image=nginx
+  230  kubectl get pod
+  231  kubectl delete pod nginx
+  232  kubectl run nginx --image=nginx
+  233  kubectl get pod
+  234  kubectl describe pod 
+  235  curl 172.18.0.3
+  236  ping 172.18.0.3
+  237  kubectl get pod
+  238  kubectl exec -ti nginx --sh
+  239  kubectl exec -ti nginx -- sh
+  240  kubectl get pod nginx
+  241  kubectl log pod nginx
+  242  kubectl logs nginx 
+  243  kubectl logs nginx -f
+  244  kubectl get pod nginx -o yaml
+  245  mkdir kubernetes
+  246  apt install sublima
+  247  sudo apt install sublime
+  248  cd kubernetes/
+  249  mkdir pod
+  250  cd pod/
+  251  vim pod.yaml
+  252  vim pod.yaml 
+  253  pwd
+  254  kubectl apply -f pod.yaml --dry-run
+  255  kubectl apply -f pod.yaml --dry-run=client
+  256  vim pod.yaml 
+  257  kubectl apply -f pod.yaml --dry-run=client
+  258  kubectl apply -f pod.yaml
+  259  kubectl get pod
+  260  kubectl delete -f pod.yaml
+  261  kubectl get pod
+  262  vim pod.yaml 
+  263  kubectl apply -f pod.yaml
+  264  kubectl get pod
+  265  kubectl delet -f pod.yaml
+  266  kubectl delete -f pod.yaml
+  267  cp pod.yaml doscont.yaml
+  268  vim doscont.yaml 
+  269  docker run --net host -ti python:3.6-alpine sh
+  270  vim doscont.yaml 
+  271  kubectl apply -f doscont.yaml 
+  272  vim doscont.yaml 
+  273  kubectl apply -f doscont.yaml --dry-run=client
+  274  vim doscont.yaml 
+  275  kubectl apply -f doscont.yaml --dry-run=client
+  276  vim doscont.yaml 
+  277  kubectl apply -f doscont.yaml --dry-run=client
+  278  kubectl apply -f doscont.yaml 
+  279  kubectl get pod
+  280  kubectl delete pod nginx
+  281  kubectl describe pod doscont
+  282  kubectl log doscont
+  283  kubectl logs doscont
+  284  kubectl logs doscont cont1
+  285  kubectl logs cont1
+  286  kubectl logs pod cont1
+  287  kubectl logs pod doscont1
+  288  kubectl logs pod doscont
+  289  kubectl get pod
+  290  kubectl logs  doscont 
+  291  kubectl logs  doscont cont 1
+  292  kubectl logs  doscont cont1
+  293  kubectl logs  doscont cont2
+  294  kubectl logs  doscont -c cont1
+  295  kubectl logs  doscont -c cont2
+  296  kubectl exec -ti doscont -- sh
+  297  vim doscont.yaml 
+  298  kubectl apply -f doscont.yaml 
+  299  kubectl delete doscont
+  300  kubectl delete pod doscont
+  301  vim doscont.yaml 
+  302  kubectl apply -f doscont.yaml 
+  303  kubectl get pod
+  304  kubectl exec -ti doscont -c cont1 -- sh 
+  305  kubectl exec -ti doscont -c cont2 -- sh 
+  306  kubectl delete -f doscont.yaml 
+  307  cp doscont.yaml label.yaml
+  308  vim label.yaml 
+  309  kubectl apply -f label.yaml --dry-run=client
+  310  vim label.yaml 
+  311  kubectl apply -f label.yaml --dry-run=client
+  312  vim label.yaml 
+  313  ls
+  314  cp pod.yaml label.yaml 
+  315  vim label.yaml 
+  316  kubectl apply -f label.yaml --dry-run=client
+  317  vim label.yaml 
+  318  kubectl apply -f label.yaml --dry-run=client
+  319  kubectl get pod
+  320  kubectl apply -f label.yaml 
+  321  kubectl get pod
+  322  kubectl get pod -l app:backend
+  323  kubectl get pods -l app:backend
+  324  kubectl get pods -l app=backend
+  325  kubectl get pods -l app=front
+  326  vim yaml
+  327  vim label.yaml 
+  328  kubectl get pods -l app=fron
+  329  kubectl get pods -l env=dev
+  330  cd ..
+  331  ls
+  332  mkdir replicaset
+  333  cd replicaset/
+  334  ls
+  335  vim replicaset.yaml
+  336  kubectl api-resources
+  337  vim replicaset.yaml
+  338  cd ..
+  339  cd pod/
+  340  vim doscont.yaml 
+  341  cd ..
+  342  cd replicaset/
+  343  vim replicaset.yaml 
+  344  sudo  apt-get install sublime-text-installer
+  345  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+  346  sudo apt-get update
+  347  sudo apt-get install sublime-text-installer
+  348  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+  349  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  350  sudo apt-get install apt-transport-https
+  351  echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  352  sudo apt-get update
+  353  sudo apt-get install sublime-text
+  354  apt --fix-broken install 
+  355  sudo apt --fix-broken install 
+  356  sudo apt-get install sublime-text
+  357  vim replicaset.yaml 
+  358  kubectl apply -f replicaset.yaml --dry-run=client
+  359  vim replicaset.yaml 
+  360  kubectl apply -f replicaset.yaml --dry-run=client
+  361  vim replicaset.yaml 
+  362  kubectl apply -f replicaset.yaml --dry-run=client
+  363  vim replicaset.yaml 
+  364  kubectl apply -f replicaset.yaml --dry-run=client
+  365  vim replicaset.yaml 
+  366  kubectl apply -f replicaset.yaml --dry-run=client
+  367  kubectl apply -f replicaset.yaml 
+  368  kubectl get pods
+  369  kubectl get pods -l  app=pod-label
+  370  kubectl delete pod podtest2 podtest3
+  371  kubectl get rs
+  372  kubectl get pod
+  373  kubectl delete pod rs-test-7jj47
+  374  kubectl get rs
+  375  kubectl get rs -l app=pod-label
+  376  kubectl get rs -l app=pod-labels
+  377  kubectl get pods
+  378  kubectl delete pod rs-test-8bmcn
+  379  kubectl get pod
+  380  kubectl apply -f replicaset.yaml 
+  381  kubectl get pods
+  382  kubectl describe rs rs-test
+  383  kubectl get rs rs-test -o yaml
+  384  kubectl get pods
+  385  kubectl get pod rs-test-m9g5srs-test-m9g5s -o yaml
+  386  kubectl get pod rs-test rs-m9g5srs-test-m9g5s -o yaml
+  387  kubectl get pod  rs-m9g5srs-test-m9g5s -o yaml
+  388  kubectl get pod rs-test-m9g5s -o yaml
+  389  kubectl get pod rs-test-m9g5s -o yaml | less
+  390  kubectl get rs rs-test -o yaml
+  391  kubectl get rs rs-test -o yaml | less
+  392  kubectl delete -f replicaset.yaml 
+  393  kubectl get pod
+  394  kubectl run --generator=run-pod/v1 podtest1 --image=nginx:alpine
+  395  kubectl get pod
+  396  kubectl run --generator=run-pod/v1 podtest2 --image=nginx:alpine
+  397  kubectl get pod
+  398  kubectl describe pod podtest1
+  399  kubectl describe pod podtest1 | grep labels
+  400  kubectl describe pod podtest1 | grep Labels
+  401  kubectl describe pod podtest1 | less
+  402  kubectl describe pod podtest1 
+  403  kubectl label pod podtest1  app=pod-label
+  404  kubectl describe pod podtest1 
+  405  kubectl label pod podtest2  app=pod-label
+  406  kubectl describe pod podtest2 
+  407  kubectl get pod podtest2
+  408  kubectl describe pod podtest2
+  409  kubectl get pod -l app=pod-label
+  410  kubectl apply -f replicaset.yaml 
+  411  kubectl get pod
+  412  kubectl describe pod podtest
+  413  kubectl describe pod podtest1
+  414  kubectl get pod podtest1 -o yaml
+  415  kubectl get pod podtest1 -o yaml | less
+  416  kubectl delete pod podtest2
+  417  kubectl get pod 
+  418  sdfsdfsdfs
+  419  sudo vim /etc/systemd/logind.conf
+  420  sudo cp -p  /etc/systemd/logind.conf /etc/systemd/logind.conf.ORI
+  421  sudo vim /etc/systemd/logind.conf
+  422  sudo init 6
+  423  docker pull python:3.7-alpine
+  424  cd kubernetes/
+  425  cd replicaset/
+  426  kubectl delete -f replicaset.yaml 
+  427  kubectl get pod
+  428  minikube start
+  429  kubectl get pod
+  430  kubectl delete -f replicaset.yaml 
+  431  kubectl get pod
+  432  kubectl apply -f replicaset.yaml 
+  433  kubectl get pod
+  434  kubectl describe pod rs-test-5dlld -o yaml
+  435  kubectl get pod rs-test-5dlld -o yaml
+  436  vim replicaset.yaml 
+  437  kubectl apply -f replicaset.yaml 
+  438  kubectl get rs rs-test -o yaml
+  439  kubectl get pod
+  440  kubectl describe pod rs-test-5dlld
+  441  kubectl describe pod rs-test-5dlld | grep image
+  442  kubectl get pod
+  443  kubectl describe pod rs-test-7pcvz | grep image
+  444  kubectl describe pod rs-test-jwtdx | grep image
+  445  kubectl delete pod rs-test-jwtdx
+  446  kubectl get pod
+  447  kubectl describe pod rs-test-rt7hp | grep image
+  448  kubectl delete rs 
+  449  kubectl delete rs rs-test
+  450  kubectl delete -f replicaset.yaml 
+  451  kubectl geet pod
+  452  kubectl get pod
+  453  cd ..
+  454  mkdir deployment
+  455  cd deployment/
+  456  touch dep.yaml
+  457  vim dep.yaml 
+  458  kubectl get pod
+  459  kubectl get r
+  460  kubectl get rs
+  461  vim dep.yaml 
+  462  kubectl apply -f dep.yaml 
+  463  kubectl get dp
+  464  kubectl get deployment
+  465  kubectl get api-resourcs
+  466  kubectl get api-resources
+  467  kubectl get api-resoures
+  468  kubectl get api-resourses
+  469  kubectl get api-resources
+  470  kubectl get api-resource
+  471  kubectl get api-resourse
+  472  kubectl get deployment
+  473  kubectl get deployment --show-labls
+  474  kubectl get deployment --show-labels
+  475  kubectl rollout status deployment-test
+  476  vim dep.yaml 
+  477  kubectl rollout status deployment-test
+  478  kubectl rollout status deployment deployment-test
+  479  kubectl get rs
+  480  kubectl get rs --show-labels
+  481  kubectl get pod
+  482  kubectl get pod -show-labels
+  483  kubectl get pod --show-labels
+  484  kubectl get  deployment -o yaml
+  485  kubectl get rs
+  486  kubectl get rs deployment-test-659b64d66c
+  487  -o yaml
+  488  kubectl get rs deployment-test-659b64d66c -o yaml
+  489  kubectl get rs deployment-test-659b64d66c -o yaml | grep owner
+  490  kubectl get rs deployment-test-659b64d66c -o yaml
+  491  kubectl get  deployment -o yaml
+  492  kubectl get rs deployment-test-659b64d66c -o yaml
+  493  kubectl get pod
+  494  kubectl get pod deployment-test-659b64d66c-4wvh2 -o yaml
+  495  kubectl get rs 
+  496  vim dep.yaml 
+  497  kubectl apply -f dep.yaml 
+  498  kubectl get pod
+  499  kubectl rollout status deployment-test
+  500  kubectl rollout status deployment deployment-test
+  501  vim dep.yaml 
+  502  kubectl apply -f dep.yaml 
+  503  kubectl get pod
+  504  kubectl rollout status deployment deployment-test
+  505  kubectl get pod
+  506  kubectl rollout status deployment deployment-test
+  507  vim dep.yaml 
+  508  kubectl rollout status deployment deployment-test
+  509  kubectl rollout status deploymwnr
+  510  kubectl rollout status deployment
+  511  kubectl rollout status 
+  512  kubectl apply -f dep.yaml 
+  513  kubectl rollout status deployment deployment-test
+  514  kubectl describe deployment deployment-tst
+  515  kubectl describe deployment deployment-test
+  516  kubectl get pod
+  517  kubectl get rs app=front
+  518  kubectl get rs -l app=front
+  519  kubectl rollout history deployment deployment-test
+  520  vim dep.yaml 
+  521  kubectl apply -f dep.yaml 
+  522  kubectl rollout history deployment deployment-test
+  523  kubectl get rs
+  524  vim dep.yaml 
+  525  kubectl apply -f dep.yaml 
+  526  kubectl rollout history deployment deployment-test
+  527  vim dep.yaml 
+  528  kubectl apply -f dep.yaml --dry-run=client
+  529  kubectl apply -f dep.yaml
+  530  kubectl rollout history deployment deployment-test
+  531  vim dep.yaml 
+  532  kubectl delete -f dep.yaml 
+  533  kubectl get pod
+  534  kubectl get rrs
+  535  kubectl get rs
+  536  vim dep.yaml 
+  537  kubectl apply -f dep.yaml
+  538  kubectl get pod
+  539  kubectl rollout history deployment deployment-test
+  540  vim dep.yaml 
+  541  kubectl apply -f dep.yaml --record
+  542  kubectl rollout history deployment deployment-test
+  543  vim dep.yaml 
+  544  kubectl apply -f dep.yaml
+  545  kubectl rollout history deployment deployment-test
+  546  kubectl rollout history deployment deployment-test --revision 2
+  547  kubectl rollout history deployment deployment-test --revision=2
+  548  kubectl rollout history deployment deployment-test --revision=1
+  549  kubectl rollout history deployment deployment-test --revision=2
+  550  kubectl get deployments.apps
+  551  vim dep.yaml 
+  552  kubectl apply -f dep.yaml
+  553  kubectl get deployments.apps
+  554  kubectl get po
+  555  kubectl rollout history deployment deployment-test 
+  556  kubectl rollout undo deployment deployment-test --to-revision=2
+  557  kubectl rollout history deployment deployment-test 
+  558  kubectl get po
+  559  kubectl rollout status deployment deployment-test
+  560  kubectl describe pods deployment-test-5c4b96c449-88crp
+  561  kubectl describe deployment deployment-test
+  562  sudo init 0
+  563  ip a
+  564  cd ..
+  565  cd deployment/
+  566  ls
+  567  cp dep.yaml dep.yaml.svc
+  568  mv dep.yaml.svc ..
+  569  ls
+  570  cd ..
+  571  ls
+  572  mv svc.yaml ./servicios/
+  573  ls
+  574  cd servicios/
+  575  ls
+  576  vim svc.yaml 
+  577  cp ../deployment/dep.yaml .
+  578  ls
+  579  rm svc.yaml 
+  580  vim dep.yaml 
+  581  ls
+  582  exit
+  583  kubectl wacht -1 cat svc.yaml 
+  584  wacht -1 cat svc.yaml 
+  585  watch
+  586  wtach -1 cat svc.yaml 
+  587  watch -1 cat svc.yaml 
+  588  watch --1 cat svc.yaml 
+  589  tailf svc.yaml 
+  590  sudo apt tailf
+  591  telnet172.18.0.6 8080
+  592  telnet 172.18.0.6 8080
+  593  cat svc.yaml 
+  594  history | grep generator
+  595  .  396  kubectl run --generator=run-pod/v1 podtest2 --image=nginx:alpine
+  596  history | grep label
+  597  kubectl label pods podtest2 appç=front
+  598  kubectl label pods podtest2 app=front
+  599  kubectl describe endpoints my-service
+  600  kubectl get pods -l app=front
+  601  kubectl get pods -l app=front -o wide
+  602  kubectl get svc
+  603  kubectl describe svc my-service
+  604  kubectl run -rm  -ti --generator=run-pod/v1 podtest2 --image=nginx:alpine --- sh
+  605  kubectl run -rm  -ti --generator=run-pod/v1 podtest2 --image=nginx:alpine -- sh
+  606  kubectl run -rm  -ti --generator=run-pod/v1 podtest3 --image=nginx:alpine -- sh
+  607  kubectl run --rm  -ti --generator=run-pod/v1 podtest3 --image=nginx:alpine -- sh
+  608  kubectl exec --ti deployment-test-b7c99d94b-7w2ll  sh
+  609  kubectl exec -ti deployment-test-b7c99d94b-7w2ll  sh
+  610  history > history.txt
